@@ -40,7 +40,7 @@ This is a simple quiz application with a timer, scoring, and a results screen. T
 
 ### 1) Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/AsjadJDawre/QuizzApp.git
 cd QuizzApp
 ```
 
