@@ -1,0 +1,21 @@
+.start-screen h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+.btn.primary {
+  padding: 0.75rem 1.5rem;
+  background-color: #4a90e2; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn.primary:hover {
+  background-color: #357ABD; 
+}

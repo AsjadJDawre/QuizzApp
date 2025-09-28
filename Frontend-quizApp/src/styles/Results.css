@@ -1,0 +1,68 @@
+.results-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.results-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.score {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.score-number {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.result-item {
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.result-item.correct {
+  background-color: rgba(16, 185, 129, 0.15);
+  border: 1px solid #10b981;
+}
+
+.result-item.wrong {
+  background-color: rgba(239, 68, 68, 0.15);
+  border: 1px solid #ef4444;
+}
+
+.q-number {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.btn.primary {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.btn.primary:hover {
+  background-color: #1d4ed8;
+}

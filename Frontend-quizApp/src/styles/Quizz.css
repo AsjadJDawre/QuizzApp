@@ -1,0 +1,83 @@
+.question-card {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  margin-bottom: 20px;
+  background-color: #f9fafb;
+}
+
+.question-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.option-item:hover {
+  border-color: #2563eb;
+  background-color: rgba(37, 99, 235, 0.05);
+}
+
+.option-item.selected {
+  border-color: #2563eb;
+  background-color: rgba(37, 99, 235, 0.15);
+}
+
+.option-label {
+  font-weight: 700;
+  width: 24px;
+}
+
+.option-text {
+  flex: 1;
+}
+
+/* General button base */
+.btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+/* Primary button (Submit, Start, Restart) */
+.btn.primary {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background-color: #357ABD;
+  transform: translateY(-2px);
+}
+
+/* Secondary button (Quit, Back) */
+.btn.secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.btn.secondary:hover {
+  background-color: #cfcfcf;
+  transform: translateY(-2px);
+}
